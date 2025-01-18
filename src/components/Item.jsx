@@ -2,7 +2,7 @@ import React from 'react';
 
 const Item = (props) => {
   return (
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4 transform transition-transform hover:scale-105 hover:shadow-xl rounded-xl bg-white shadow-lg hover:bg-gray-50">
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2 m-4 transform transition-transform hover:scale-105 hover:shadow-xl rounded-xl bg-white shadow-lg hover:bg-gray-50">
       <img
         src={props.image}
         alt={props.name}

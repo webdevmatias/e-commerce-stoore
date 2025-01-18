@@ -19,7 +19,7 @@ const ImageSlider = ({ images }) => {
 
   // Auto-play com setInterval
   useEffect(() => {
-    const interval = setInterval(goToNext, 3000); // Muda a imagem a cada 3 segundos
+    const interval = setInterval(goToNext, 2000); // Muda a imagem a cada 3 segundos
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar
   }, [currentIndex]);
 
